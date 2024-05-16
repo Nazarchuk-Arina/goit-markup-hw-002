@@ -93,7 +93,7 @@ ul {
   color: #434455;
 }
 .main-team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 /* Footer */
 .footer-logo {
@@ -115,5 +115,5 @@ ul {
   color: #f4f4fd;
 }
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
