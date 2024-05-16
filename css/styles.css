@@ -47,9 +47,8 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-contacts-link:focus
-.header-contacts-link:hover {
- color: #404bbf;
+.header-contacts-link:focus .header-contacts-link:hover {
+  color: #404bbf;
 }
 /* Hero */
 .hero {
@@ -71,14 +70,27 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background-color: #4D5AE5:
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 .hero-btn:focus,
 .hero-btn:hover {
-background-color: #404BBF;
+  background-color: #404bbf;
 }
 /* Main*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .main-titles {
   font-weight: 700;
   font-size: 36px;
