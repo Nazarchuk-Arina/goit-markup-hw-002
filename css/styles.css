@@ -92,6 +92,9 @@ ul {
   text-align: center;
   color: #434455;
 }
+.main-team {
+  background: #f4f4fd;
+}
 /* Footer */
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -110,4 +113,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.footer {
+  background: #2e2f42;
 }
